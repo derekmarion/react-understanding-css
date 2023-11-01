@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    font-size: 18px;
+}
+
+.container {
+    font-size: 0;
+}
+
+.float-box {
+    float: left;
+}
+
+.text {
+    clear: left;
+}
+
+.container1 {
+    height: 50px;
+    overflow: auto;
+}
